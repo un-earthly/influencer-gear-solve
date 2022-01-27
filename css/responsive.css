@@ -1,0 +1,119 @@
+@media (min-width:320px) and (max-width:668px) {
+    div.wrapper{
+        padding: 5px;
+    }
+    nav.web{
+        display: none;
+    }
+    nav.android{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 35px 16px 0;
+    }
+    section.top{
+        flex-direction: column-reverse;
+        padding: 12px;
+        text-align: center;
+    }
+    .top > .top__text{
+        width: 100%;
+    }
+    .top > .top__text > h1{
+        font-size: 28px;
+        line-height: 42px;
+    }
+    div.top__img{
+        width: 100%;
+    }
+    div.web.logos{
+        display: none;
+    }
+    .android.logos{
+        display: flex;
+        flex-direction: column;
+    }
+    .part__1,.part__2{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 3px;
+    }
+    .android.logos > .part__1 > img , .android.logos >.part__2 > img{ 
+        width: 60px;
+        padding: 3px;
+        margin-top: 5px;
+    }
+    section.products__section{
+        margin-bottom: 0;
+    }
+    .products__section > .products {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .products__section > .products > .product  {
+        padding: 0 10px 4px;
+        width: 250px;
+    }
+    .floating__btn {
+        padding: 10px;
+    }
+    .review{
+        flex-direction: column;
+    }
+    .review .meter img{
+        width: 100%;
+    }
+    .review .text__part h1{
+        font-size: 28px;
+    }
+}
+
+/*====================== tablet =====================*/
+
+@media (min-width:669px) and (max-width:1024px) {
+    div.wrapper{
+        padding: 5px;
+    }
+    .web{
+        display: flex;
+    }
+    nav.android{
+        display: none;
+    }
+    .top > .top__text > h1{
+        font-size: 37px;
+        line-height: 42px;
+    }
+    .logos > img{
+        padding: 4px;
+    }
+    .products__section > .products {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .products__section > .products > .product{
+        width: 250px;
+    }
+    section.products__section {
+        margin:0;
+        padding: 0;
+   }
+   div.floating__btn{
+       text-align: center;
+   }
+    .review{
+        flex-direction: column;
+    }
+    .review .meter img{
+        width: 100%;
+    }
+    .review .text__part h1{
+        font-size: 50px;
+    }
+
+}
