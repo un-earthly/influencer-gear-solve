@@ -23,12 +23,6 @@ li {
     display: none;
 }
 
-.active {
-    background-color: rgba(51, 51, 51, 0.200);
-    padding: 3px 20px;
-    border-radius: 5px;
-    color: white;
-}
 
 .pink {
     color: rgba(224, 44, 110, 0.87);
@@ -74,7 +68,6 @@ ul>li {
 
 .nav__link:hover {
     border-radius: 5px;
-    color: white;
 }
 
 .nav__link::after {
@@ -88,7 +81,8 @@ ul>li {
     transition: 0.5s;
 }
 
-.nav__link:hover::after {
+.nav__link:hover::after,
+.active::after {
     width: 100%;
 }
 
